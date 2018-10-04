@@ -1,0 +1,21 @@
+{
+  "name": "di-workshop-05-objects",
+  "version": "1.0.0",
+  "description": "JavaScript object literals",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaapp/di-workshop-05-objects.git"
+  },
+  "author": "Alex Dytrych <alex@ada.ac.uk>",
+  "bugs": {
+    "url": "https://github.com/adaapp/di-workshop-05-objects/issues"
+  },
+  "homepage": "https://github.com/adaapp/di-workshop-05-objects#readme",
+  "dependencies": {
+    "serve": "^10.0.2"
+  }
+}
