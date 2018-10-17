@@ -133,6 +133,28 @@ happens.
 > **Note:** don’t copy-paste! If you copy paste these lines, some of them won’t
 > run correctly. Type them out by hand - it’s better practice anyway.
 
-| Line   | Expected Result | Actual Result | Were you right? Why? |
-| ------ | --------------- | ------------- | -------------------- |
-| `TODO` |                 |               |                      |
+| Line                                               | Expected Result | Actual Result | Were you right? Why? |
+| -------------------------------------------------- | --------------- | ------------- | -------------------- |
+| `var alex = {name: 'alex', age: 23, height: 163}`  |                 |               |                      |
+| `alex.name`                                        |                 |               |                      |
+| `alex.age`                                         |                 |               |                      |
+| `alex.age = 1000`                                  |                 |               |                      |
+| `alex` (use the ▶ to expand the object)            |                 |               |                      |
+| `alex.hairColor = 'blue'`                          |                 |               |                      |
+| `alex`                                             |                 |               |                      |
+| `var pet = {name: 'amber', type: 'dog'}`           |                 |               |                      |
+| `pet`                                              |                 |               |                      |
+| `alex.pet = pet`                                   |                 |               |                      |
+| `alex`                                             |                 |               |                      |
+| `pet.name = 'lyla'`                                |                 |               |                      |
+| `alex.pet`                                         |                 |               |                      |
+| `delete alex.pet`                                  |                 |               |                      |
+| `alex.pet`                                         |                 |               |                      |
+| `pet`                                              |                 |               |                      |
+| `alex["name"]`                                     |                 |               |                      |
+| `var someString = 'age'`                           |                 |               |                      |
+| `alex[someString]`                                 |                 |               |                      |
+| `alex[someString] = 23`                            |                 |               |                      |
+| `var weirdObj = {spooky: true}`                    |                 |               |                      |
+| `weirdObj.strange = weirdObj`                      |                 |               |                      |
+| `weirdObj` (use ▶ to expand - how far does it go?) |                 |               |                      |
