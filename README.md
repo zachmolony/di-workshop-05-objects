@@ -158,3 +158,55 @@ happens.
 | `var weirdObj = {spooky: true}`                    |                 |               |                      |
 | `weirdObj.strange = weirdObj`                      |                 |               |                      |
 | `weirdObj` (use ▶ to expand - how far does it go?) |                 |               |                      |
+
+Answer the following questions (you might need to do some research!)
+
+1. What is a JavaScript object?
+1. In a JavaScript object, what are:
+   - keys
+   - values
+   - properties
+1. Why would you use an object in JavaScript
+
+## Challenge - see how far you can get
+
+Take your commented sketch code from before and see if you can refactor it to
+use objects rather than arrays. If you need to, use the hints below:
+
+<details><summary>Hint 1 (click to expand)</summary><p>
+
+You can add objects to an array.
+
+```js
+for (var i = 0; i < ballCount; i = i + 1) {
+  var myBall = {
+    // write ball properties here
+  }
+  balls[i] = myBall
+}
+```
+
+</p></details>
+
+<details><summary>Hint 2 (click to expand)</summary><p>
+
+Try using this function:
+
+```js
+function createBall() {
+  return {
+    x: Math.random() * width,
+    y: Math.random() * height,
+    speedX: Math.random() * 3,
+    speedY: Math.random() * 3
+  }
+}
+```
+
+</p></details>
+
+**Extension: modify your sketch to create a new ball at the position of the
+mouse whenever it is pressed down**
+
+**Extension: add gravity! Add a small amount to the vertical speed of each ball
+every frame**
