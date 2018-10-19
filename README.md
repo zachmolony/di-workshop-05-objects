@@ -64,7 +64,9 @@ function draw() {
 }
 ```
 
-1. **Read through the code and understand what it does and how it works**
+1. **Read through the code and understand what it does and how it works. You may
+   need to take some time reviewing previous workshops and slides in order to do
+   so**
 1. **Add comments throughout the code describing the purpose of each line**
 1. **How does this code use arrays and loops?**
 1. **Can you think of a way this might cause problems?**
