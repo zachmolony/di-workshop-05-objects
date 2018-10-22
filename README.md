@@ -170,7 +170,7 @@ Answer the following questions (you might need to do some research!)
    - properties
 1. Why would you use an object in JavaScript
 
-## Challenge - see how far you can get
+## Challenge
 
 Take your commented sketch code from before and see if you can refactor it to
 use objects rather than arrays. If you need to, use the hints below:
