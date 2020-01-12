@@ -5,12 +5,11 @@ Start by setting up the workshop as usual.
 
 For each of the **bold** questions below:
 
-<h3 align="center">
-  🗣 Discuss &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  👩‍💻 Change &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  👀 Observe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  🗣 Discuss 
+  👩‍💻 Change 
+  👀 Observe
   🔄 Repeat
-</h3>
+
 
 1. **🗣 Discuss** the question with your partner
 1. **👩‍💻 Change the code** - what do you expect your changes to do?
@@ -23,9 +22,13 @@ For each of the **bold** questions below:
 
 **Don’t move on until you fully understand what’s happening.**
 
+Ideally you should fork thie repository, and then either clone the code to your machine using ```git clone``` or import it into repl.it using the 'import repo' button on [Repl.it](https://repl.it/~). 
+
+You can also click the below button: [![Run on Repl.it](https://repl.it/badge/github/adaapp/di-workshop-05-objects)](https://repl.it/github/adaapp/di-workshop-05-objects) However, this will not allow you to push your changes.
+
 # Part 1
 
-Create a sketch with the following code:
+Open the *sketch.js* file with the following code:
 
 ```js
 var ballCount = 5
@@ -73,8 +76,7 @@ function draw() {
 
 ---
 
-In this example, we have several on-screen objects - the balls. In our code,
-each object is made up of four pieces of information. **What are they?**
+In this example, we have several on-screen objects - the balls. In our code, each object is made up of four pieces of information. **What are they?**
 
 On screen and as we're thinking about this project, we probably think about each
 ball as it's own self contained thing. That's not how things work in our code
@@ -175,7 +177,7 @@ Answer the following questions (you might need to do some research!)
 Take your commented sketch code from before and see if you can refactor it to
 use objects rather than arrays. If you need to, use the hints below:
 
-<details><summary>Hint 1 (click to expand)</summary><p>
+#### Hint 1 
 
 You can add objects to an array.
 
@@ -188,9 +190,7 @@ for (var i = 0; i < ballCount; i = i + 1) {
 }
 ```
 
-</p></details>
-
-<details><summary>Hint 2 (click to expand)</summary><p>
+#### Hint 2 
 
 Try using this function:
 
@@ -205,7 +205,6 @@ function createBall() {
 }
 ```
 
-</p></details>
 
 **Extension: modify your sketch to create a new ball at the position of the
 mouse whenever it is pressed down**
